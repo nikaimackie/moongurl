@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Moongurl’s Archive</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">N. Mackie</div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="bio.html">Biography</a>
+        <a href="work.html">Bodies of Work</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-spot">
+      <h1 class="site-title">Moongurl's Archive</h1>
+    </section>
+
+    <section class="tiles-wrapper">
+      <div class="tiles-grid">
+        <!-- Replace noise1.jpg/noise2.jpg with your actual images in /assets/ -->
+        <img src="assets/noise1.jpg" alt="Moongurl artwork 1">
+        <img src="assets/noise2.jpg" alt="Moongurl artwork 2">
+        <img src="assets/noise3.jpg" alt="Moongurl artwork 3">
+        <img src="assets/noise1.jpg" alt="Moongurl artwork 4">
+        <img src="assets/noise2.jpg" alt="Moongurl artwork 5">
+        <img src="assets/noise3.jpg" alt="Moongurl artwork 6">
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <p class="lead">
+          Moongurl is a multidisciplinary artist and DJ whose work moves through sound, film, and visual storytelling. Her practice centers Black queer futurity, disability justice, and experimental sonic landscapes that blur the line between archive and imagination.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Moongurl — All rights reserved</p>
+  </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
