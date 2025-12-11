@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Biography — Moongurl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">N. Mackie</div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="bio.html" class="active">Biography</a>
+        <a href="work.html">Bodies of Work</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Large banner area with the cherry background + cropped photo -->
+    <section class="bio-banner" role="banner" aria-label="Who is Moongurl banner">
+      <!-- Replace cherries.jpg with your banner image in /assets/ -->
+      <img src="assets/cherries.jpg" alt="Moongurl banner" class="banner-img">
+      <div class="banner-overlay">
+        <h2>WHO IS MOONGURL?</h2>
+      </div>
+    </section>
+
+    <section class="bio-copy container">
+      <p>
+        Moongurl is a multidisciplinary artist and DJ whose work moves through sound, film, and visual storytelling. Her practice centers Black queer futurity, disability justice, and experimental sonic landscapes that blur the line between archive and imagination.
+      </p>
+      <p>
+        Through performance and mixed-media creation, she uses art as a space for activism, autonomy, and world-building.
+      </p>
+    </section>
+
+    <section class="soundcloud container">
+      <!-- SoundCloud embed: replace the src iframe with your track's embed code -->
+      <div class="sc-embed">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID&color=%23ff9fb3&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year2"></span> Moongurl</p>
+  </footer>
+
+<script>
+  document.getElementById('year2').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
