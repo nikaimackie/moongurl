@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bodies of Work — Moongurl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">N. Mackie</div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="bio.html">Biography</a>
+        <a href="work.html" class="active">Bodies of Work</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Bodies of Work</h2>
+
+    <div class="work-grid">
+      <!-- Replace with actual project thumbnails and links -->
+      <article class="work-card">
+        <img src="assets/noise1.jpg" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>Short description of the project or link to project page.</p>
+      </article>
+
+      <article class="work-card">
+        <img src="assets/noise2.jpg" alt="Project 2">
+        <h3>Project Title 2</h3>
+        <p>Short description or notes about this body of work.</p>
+      </article>
+
+      <article class="work-card">
+        <img src="assets/noise3.jpg" alt="Project 3">
+        <h3>Project Title 3</h3>
+        <p>Short description or notes about this body of work.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year3"></span> Moongurl</p>
+  </footer>
+
+<script>
+  document.getElementById('year3').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
